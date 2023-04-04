@@ -67,8 +67,9 @@ This React Native Expo project copy of [Pokemon List](https://frontend-interview
 ### Time Spent
 Here's a breakdown of the time I spent working on the project:
 
+- Setting up project: 0.5 hours
 - Front-end development: 2.5 hours
-- Back-end development: 2 hours
+- Back-end development: 3 hours
 - Typescript integration: 1 hour
 
 
