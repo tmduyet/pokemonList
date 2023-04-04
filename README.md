@@ -1,4 +1,5 @@
 <!-- Improved compatibility of back to top link: See: https://github.com/othneildrew/Best-README-Template/pull/73 -->
+
 <a name="readme-top"></a>
 <!--
 *** Thanks for checking out the Best-README-Template. If you have a suggestion
@@ -30,6 +31,8 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
+ 
+  <img src='https://play-lh.googleusercontent.com/algsmuhitlyCU_Yy3IU7-7KYIhCBwx5UJG4Bln-hygBjjlUVCiGo1y8W5JNqYm9WW3s=w600-h300-pc0xffffff-pd'/>
   <a href="https://github.com/tmduyet/pokemonList">
 <!--     <img src="images/logo.png" alt="Logo" width="80" height="80"> -->
   </a>
@@ -39,15 +42,6 @@
   <p align="center">
    This is a React Native application that displays and filters Pokemons using the PokiAPI.
     <br />
-<!--     <a href="https://github.com/github_username/repo_name"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
-    <a href="https://github.com/github_username/repo_name">View Demo</a>
-    ·
-    <a href="https://github.com/github_username/repo_name/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/github_username/repo_name/issues">Request Feature</a>
-  </p> -->
 </div>
 
 
@@ -71,21 +65,18 @@
     </li>
     <li><a href="#usage">Usage</a></li>
     <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
     <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
 </details>
 
 
-
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
-
-
+<div align="center" style={{flex-direction: row}}>
+ <img src='https://user-images.githubusercontent.com/56403670/229824949-9e6407b9-fbfa-4885-8b26-3fec10777427.png'  width="300" height="650"/> 
+ <img src='https://user-images.githubusercontent.com/56403670/229827367-be2718e0-8cac-4bad-a3ae-fb7fdc9ff4c8.png'  width="300" height="650"/>
+ </div>
 Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `github_username`, `repo_name`, `twitter_handle`, `linkedin_username`, `email_client`, `email`, `project_title`, `project_description`
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
