@@ -60,7 +60,7 @@
  <img src='https://user-images.githubusercontent.com/56403670/229827367-be2718e0-8cac-4bad-a3ae-fb7fdc9ff4c8.png'  width="300" height="650"/>
  </div>
  
-This React Native Expo project utilizes the PokiAPI and a custom Node.js API to load and filter a list of Pokemons by type. The app also features an infinite loading functionality to enhance the user experience.
+This React Native Expo project copy of [Pokemon List](https://frontend-interview.it-consultis.net/pokemon-list) utilizes the [PokiAPI](https://pokeapi.co/) and a custom Node.js API to load and filter a list of Pokemons by type. The app also features an infinite loading functionality to enhance the user experience.
 
 
 
@@ -79,7 +79,7 @@ Here's a breakdown of the time I spent working on the project:
 
 <!-- GETTING STARTED -->
 ## Getting Started
-Welcome to this React Native Expo project! This project utilizes the PokiAPI and a custom Node.js API to load and filter a list of Pokemons by type. The app also features an infinite loading functionality to enhance the user experience.
+Welcome to this React Native Expo project! This project utilizes the [PokiAPI](https://pokeapi.co/) and a custom Node.js API to load and filter a list of Pokemons by type. The app also features an infinite loading functionality to enhance the user experience.
 
 ### Prerequisites
 Before running the project, you need to have Node.js and Expo installed on your machine.
