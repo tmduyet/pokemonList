@@ -123,7 +123,7 @@ This will open the Expo Developer Tools in your default browser. From there, you
 - [X] Custom API
 - [X] Connect API
 - [X] Filter
-- [X] Load more/infinite pagination
+- [X] Load more/infinite load/pagination
 
 
 
