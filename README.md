@@ -150,11 +150,10 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 <!-- ROADMAP -->
 ## Roadmap
 
-- [ ] Build UI
-- [ ] Connect API
-- [ ] Load more/infinite pagination
-
-See the [open issues](https://github.com/github_username/repo_name/issues) for a full list of proposed features (and known issues).
+- [X] Build UI
+- [X] Connect API
+- [X] Filter
+- [X] Load more/infinite pagination
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -162,7 +161,7 @@ See the [open issues](https://github.com/github_username/repo_name/issues) for a
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email@email_client.com
+Duyet Tran Minh - LinkedIn:[([linkedin-url])](https://www.linkedin.com/in/duyet-tran-minh-7aba40174/) - email@email_client.com
 
 Project Link: [https://github.com/github_username/repo_name](https://github.com/github_username/repo_name)
 
@@ -194,7 +193,7 @@ Project Link: [https://github.com/github_username/repo_name](https://github.com/
 [license-shield]: https://img.shields.io/github/license/github_username/repo_name.svg?style=for-the-badge
 [license-url]: https://github.com/github_username/repo_name/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/linkedin_username
+[linkedin-url]: [https://linkedin.com/in/linkedin_username](https://www.linkedin.com/in/duyet-tran-minh-7aba40174/)
 [product-screenshot]: images/screenshot.png
 [React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
 [React-url]: https://reactjs.org/
