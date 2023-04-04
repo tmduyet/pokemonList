@@ -10,24 +10,6 @@
 -->
 
 
-
-<!-- PROJECT SHIELDS -->
-<!--
-*** I'm using markdown "reference style" links for readability.
-*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
-*** See the bottom of this document for the declaration of the reference variables
-*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
-*** https://www.markdownguide.org/basic-syntax/#reference-style-links
--->
-<!-- [![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url] -->
-
-
-
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
@@ -63,10 +45,10 @@
         <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
-    <li><a href="#usage">Usage</a></li>
     <li><a href="#roadmap">Roadmap</a></li>
+			 <li><a href="#why-i-custom-api-and-demo">Why I Custom API and Demo</a></li>
     <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
+  
   </ol>
 </details>
 
@@ -77,98 +59,89 @@
  <img src='https://user-images.githubusercontent.com/56403670/229824949-9e6407b9-fbfa-4885-8b26-3fec10777427.png'  width="300" height="650"/> 
  <img src='https://user-images.githubusercontent.com/56403670/229827367-be2718e0-8cac-4bad-a3ae-fb7fdc9ff4c8.png'  width="300" height="650"/>
  </div>
-Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `github_username`, `repo_name`, `twitter_handle`, `linkedin_username`, `email_client`, `email`, `project_title`, `project_description`
+ 
+This React Native Expo project utilizes the PokiAPI and a custom Node.js API to load and filter a list of Pokemons by type. The app also features an infinite loading functionality to enhance the user experience.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+
+### Time Spent
+Here's a breakdown of the time I spent working on the project:
+
+- Front-end development: 2.5 hours
+- Back-end development: 2 hours
+- Typescript integration: 1 hour
 
 
 ### Built With
-
 * [![React][React.js]][React-url]
-
-
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
 <!-- GETTING STARTED -->
 ## Getting Started
-
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+Welcome to this React Native Expo project! This project utilizes the PokiAPI and a custom Node.js API to load and filter a list of Pokemons by type. The app also features an infinite loading functionality to enhance the user experience.
 
 ### Prerequisites
-
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
+Before running the project, you need to have Node.js and Expo installed on your machine.
+[Expo](https://docs.expo.dev/get-started/installation/), [Node](https://nodejs.org/en)
 
 ### Installation
+1. Install Expo
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
-   ```sh
-   git clone https://github.com/github_username/repo_name.git
-   ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
-   ```
+```sh
+npm install -g expo-cli
+```
 
+2. Clone the Repository
+
+```sh
+git clone https://github.com/tmduyet/pokemonList.git
+```
+
+3. Install Dependencies
+
+```sh
+cd project
+npm install
+```
+
+4. Run the App
+
+```sh
+npm start
+```
+
+This will open the Expo Developer Tools in your default browser. From there, you can run the app on your emulator/simulator or on your physical device by scanning the QR code using the Expo Go app.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- USAGE EXAMPLES -->
-## Usage
-
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 
 <!-- ROADMAP -->
 ## Roadmap
 
 - [X] Build UI
+- [X] Custom API
 - [X] Connect API
 - [X] Filter
 - [X] Load more/infinite pagination
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+
+## Why I Custom API and Demo
+
+I noticed that the custom API provides better optimization for filtering by type and pagination. In case the API is inaccessible, here's a video demo of the product.
+
+<br></br>
+
+https://user-images.githubusercontent.com/56403670/229839452-629752ba-1bdf-473d-9a21-fb55576cd589.mp4
 
 <!-- CONTACT -->
 ## Contact
 
-Duyet Tran Minh - LinkedIn:[([linkedin-url])](https://www.linkedin.com/in/duyet-tran-minh-7aba40174/) - email@email_client.com
+Duyet Tran Minh - [LinkedIn](https://www.linkedin.com/in/duyet-tran-minh-7aba40174/) - tmduyet@gmail.com
 
-Project Link: [https://github.com/github_username/repo_name](https://github.com/github_username/repo_name)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- ACKNOWLEDGMENTS -->
-## Acknowledgments
-
-* []()
-* []()
-* []()
+Project Link: [https://github.com/tmduyet/pokemonList.git](https://github.com/tmduyet/pokemonList.git)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
@@ -187,4 +160,4 @@ Project Link: [https://github.com/github_username/repo_name](https://github.com/
 [linkedin-url]: [https://linkedin.com/in/linkedin_username](https://www.linkedin.com/in/duyet-tran-minh-7aba40174/)
 [product-screenshot]: images/screenshot.png
 [React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
-[React-url]: https://reactjs.org/
+[React-url]: https://reactnative.dev/
