@@ -8,6 +8,7 @@ import {
   Text,
   View,
   Animated,
+  RefreshControl,
 } from "react-native";
 import { styles } from "./Styles";
 import { GET_POKEMON, GET_TYPE } from "./Api/Containts";
@@ -31,7 +32,9 @@ export default function App() {
   const [total, setTotal] = useState(0);
   const [loadMore, setLoadMore] = useState(false);
   const [loading, setLoading] = useState(true);
+  const [refreshing, setRefreshing] = useState(false);
   const [searchArr, setSearchArr] = useState<string[]>([]);
+
   const fadeAnim = useRef(new Animated.Value(250)).current;
   const flatRef = useRef(null);
   var timeTrigger = useRef<ReturnType<typeof setTimeout>>(null);
@@ -118,7 +121,13 @@ export default function App() {
       useNativeDriver: false,
     }).start();
   };
-
+  const onRefresh = useCallback(() => {
+    setRefreshing(true);
+    getPokemonData(handleString(searchArr));
+    setTimeout(() => {
+      setRefreshing(false);
+    }, 2000);
+  }, [refreshing, getPokemonData]);
   return (
     <SafeAreaView style={styles.container}>
       <Animated.View style={[styles.filterContainer, { height: fadeAnim }]}>
@@ -147,6 +156,12 @@ export default function App() {
           <Text>Loading</Text>
         ) : (
           <FlatList
+            refreshControl={
+              <RefreshControl
+                refreshing={refreshing}
+                onRefresh={onRefresh}
+              ></RefreshControl>
+            }
             ref={flatRef}
             ListEmptyComponent={() => (
               <View>
